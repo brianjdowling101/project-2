@@ -1,6 +1,6 @@
 # Build a Rock, Paper, Scissors, Lizard, Spock Game
 
-## Introduction
+## Introduction.
 - This project is a web-based game that involves playing Rock, Paper, Scissors, Lizard, Spock against the computer. The game is an expansion of the classic game of Rock, Paper, Scissors and includes two additional options to increase the complexity and unpredictability of the game.
 
 - The game's objective is to provide entertainment and challenge for users of all ages. Users can play the game multiple times, and the computer generates a new outcome each time.
