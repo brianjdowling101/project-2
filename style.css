@@ -141,7 +141,9 @@ body {
 @media (max-width: 767px) {
     body {
         font-size: 14px;
+
     }
+
 }
 
 /* Media query for screens between 768px and 991px (tablets) */
