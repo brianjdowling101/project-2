@@ -1,0 +1,158 @@
+/* Set box-sizing, margin, and padding to 0 for all elements */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Set the font family for the body to sans-serif */
+body {
+    font-family: sans-serif;
+}
+
+/* Style the header section */
+.header {
+    background-color: #930707;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+/* Style the scoreboard section */
+.scoreboard {
+    display: flex;
+    justify-content: space-between;
+    margin: 2em;
+}
+
+/* Style the heading in the scoreboard section */
+.scoreboard h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+/* Style the player score, computer score, and result sections in the scoreboard */
+.player-score,
+.computer-score,
+.result {
+    flex-basis: calc(33.33% - 1em);
+    text-align: center;
+}
+
+/* Style the font size for the player score, computer score, and result sections */
+.player-score p,
+.computer-score p,
+#result {
+    font-size: 3em;
+}
+
+/* Style the options section */
+.options {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+/* Style the buttons in the options section */
+.options button {
+    background-color: #fa0000;
+    border: none;
+    border-radius: 0.5em;
+    color: #040404;
+    font-size: 1.5em;
+    margin: 0 0.5em;
+    padding: 1em 2em;
+}
+
+/* Style the button hover effect in the options section */
+.options button:hover {
+    background-color: #930707;
+}
+
+/* Style the buttons section */
+.buttons {
+    text-align: center;
+}
+
+/* Hide the play-again button */
+#play-again {
+    display: none;
+}
+
+/* Style the buttons in the buttons section */
+.buttons button {
+    background-color: #333;
+    border: none;
+    border-radius: 0.5em;
+    color: white;
+    font-size: 1.5em;
+    margin: 0.5em;
+    padding: 1em 2em;
+}
+
+/* Style the button hover effect in the buttons section */
+.buttons button:hover {
+    background-color: #666;
+}
+
+/* Center align the text and set the font size to 1em for the .rules class */
+.rules {
+    text-align: center;
+    font-size: 1em;
+    margin-top: 20px;
+}
+
+/* Add a margin below the h1 element */
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Indent the list by 30px from the left and set the font size to 1em and line-height to 1 for the ul element */
+ul {
+    margin-left: 30px;
+    font-size: 1em;
+    line-height: 1;
+}
+
+/* Add a margin below each list item */
+li {
+    margin-bottom: 15px;
+}
+
+/* Add a margin above the paragraph element and set the font size to 1em and line-height to 1 */
+p {
+    margin-top: 30px;
+    font-size: 1em;
+    line-height: 1;
+}
+
+/* Styles for larger screens */
+
+/* ... */
+
+/* Styles for smaller screens */
+@media (max-width: 768px) {
+
+    /* Reduce font sizes */
+    body {
+        font-size: 16px;
+    }
+
+    /* Adjust layout */
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+
+    /* Hide elements that take up too much space. */
+    .large-element {
+        display: none;
+    }
+
+    /* Modify positioning */
+    .sticky-element {
+        position: static;
+        margin-top: 10px;
+    }
+}
