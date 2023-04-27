@@ -1,0 +1,57 @@
+<!DOCTYPE html> <!-- Document type declaration -->
+<html> <!-- Root element of the page -->
+
+<head> <!-- Metadata about the page. -->
+    <meta charset="UTF-8"> <!-- Character encoding for the page -->
+    <title>Rock Paper Scissors Lizard Spock</title> <!-- Title of the page -->
+    <link rel="stylesheet" href="style.css"> <!-- Link to external stylesheet -->
+</head>
+
+<body> <!-- Visible content of the page -->
+    <div class="header"> <!-- Header section -->
+        <h1>Rock Paper Scissors Lizard Spock</h1> <!-- Main heading -->
+        <p>First to 15 wins!</p> <!-- Subheading -->
+    </div>
+    <div class="scoreboard"> <!-- Scoreboard section -->
+        <div class="player-score"> <!-- Player score section -->
+            <h2>Player</h2> <!-- Player score heading -->
+            <p id="player-score">0</p> <!-- Player score value -->
+        </div>
+        <div class="result"> <!-- Result section -->
+            <h2>Result</h2> <!-- Result heading -->
+            <p id="result"></p> <!-- Result message -->
+        </div>
+        <div class="computer-score"> <!-- Computer score section -->
+            <h2>Computer</h2> <!-- Computer score heading -->
+            <p id="computer-score">0</p> <!-- Computer score value -->
+        </div>
+    </div>
+    <div class="options"> <!-- Options section -->
+        <button id="rock">Rock</button> <!-- Rock option -->
+        <button id="paper">Paper</button> <!-- Paper option -->
+        <button id="scissors">Scissors</button> <!-- Scissors option -->
+        <button id="lizard">Lizard</button> <!-- Lizard option -->
+        <button id="spock">Spock</button> <!-- Spock option -->
+    </div>
+    <div class="buttons"> <!-- Buttons section -->
+        <button id="start">Start</button> <!-- Start button -->
+        <button id="play-again">Play Again</button> <!-- Play again button -->
+    </div>
+    <section id="rules">
+        <h1>Rules</h1>
+        <ul>
+            <li>Rock beats scissors and lizard.</li>
+            <li>Paper beats rock and Spock.</li>
+            <li>Scissors beats paper and lizard.</li>
+            <li>Lizard beats paper and Spock.</li>
+            <li>Spock beats rock and scissors.</li>
+            <li>If both players choose the same gesture, it is a tie.</li>
+            <li>Each round, the winner of the round earns one point.</li>
+            <li>The game continues until one player reaches 15 points.</li>
+        </ul>
+
+    </section>
+    <script src="script.js"></script> <!-- Link to external JavaScript file -->
+</body>
+
+</html>
